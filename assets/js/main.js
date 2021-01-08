@@ -6,7 +6,11 @@
 
   /*Page Loader active
     ========================================================*/
-    $('#preloader').fadeOut();
+    setTimeout(function(){
+      $('#preloader').fadeOut('slow', function () {
+      });
+  },3200); // set the time here
+  
 
   // Sticky Nav
     $(window).on('scroll', function() {

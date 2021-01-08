@@ -322,7 +322,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #preloader {
   position: fixed;
-  background: #fff;
+  background: url("/assets/gif/loading_desktop.gif") no-repeat center center;
+  background-color: #f6fcf6;
   top: 0;
   left: 0;
   width: 100%;
