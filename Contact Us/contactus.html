@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+<body>
+       <!-- Contact Us Section -->
+    <section id="contact-us" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title-header text-center">
+                        <h1 class="section-title wow fadeInUp contactuss" data-wow-delay="0.2s">Contact Us</h1>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-xs-12">
+                    <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="form-wrapper">
+                            <!-- <form role="form" action="https://formspree.io/f/xvovqdkl" method="POST" id="contactForm" name="contact-form" data-toggle="validator"> -->
+                            <form role="form" action="https://formspree.io/f/xvovqdkl" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6 form-line">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 form-line">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" name="_replyto" placeholder="Email" required data-error="Please enter your Email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 form-line">
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control" id="msg_subject" name="subject" placeholder="Subject" required data-error="Please enter your message subject">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="4" id="message" name="message" required data-error="Write your message"></textarea>
+                                        </div>
+                                        <div class="form-submit">
+                                            <button type="submit" class="btn btn-common" value="Send" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Us Now</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- <form action="https://formspree.io/f/xvovqdkl" method="POST" id="contactForm" name="contact-form" data-toggle="validator">
+                <label>
+                    Your email:
+                    <input type="text" name="_replyto">
+                </label>
+                    <label>
+                      Your message:
+                    <textarea name="message"></textarea>
+                        </label>
+
+                      <!-- your other form fields go here -->
+                            <!-- <button type="submit">Send</button>
+                </form> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us Section End -->
+</body>
+</html>
