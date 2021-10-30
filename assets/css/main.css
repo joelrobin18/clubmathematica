@@ -229,7 +229,7 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: transparent
+  background-color: transparent;
   position: relative;
   z-index: 1;
 }
@@ -1953,7 +1953,7 @@ element.style {
   }
 
   .fa-facebook:hover{
-    color:cyan;|
+    color:cyan;
   }
   .fa-twitter:hover{
     color:cyan;
@@ -2199,4 +2199,20 @@ element.style {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   border-color: #fff;
+}
+.card-title{
+  font-size: 20px;
+}
+.card-text-company{
+font-size: 25px;
+font-weight: bold;
+padding-top:10px;
+text-align: center;
+font-family: sans-serif;
+}
+.card-text-branch{
+  text-align: center;
+  font-size: 25px;
+font-weight: bold;
+font-family:'Times New Roman', Times, serif;
 }
