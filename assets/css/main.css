@@ -1952,33 +1952,42 @@ element.style {
 	margin-bottom: 5px;
   }
 
-  .fa-facebook:hover{
+  /*.fa-facebook:hover{
     color:cyan;
+    transform: scale(1.5);
   }
   .fa-twitter:hover{
     color:cyan;
+    transform: scale(1.5);
   }
   .fa-behance:hover{
     color: cyan;
+    transform: scale(1.5);
   }
   .fa-instagram:hover{
-    color:pink;
+    color:cyan;
+    transform: scale(1.5);
   }
   .fa-linkedin:hover{
     color:cyan;
+    transform: scale(1.5);
   }
   .fa-github:hover{
-    color:grey;
+    color:cyan;
+    transform: scale(1.5);
   }
   .fa-envelope:hover{
-    color:grey;
+    color:cyan;
+    transform: scale(1.5);
   }
   .fa-phone:hover{
-    color:grey;
+    color:cyan;
+  transform: scale(1.5);
   }
   .fa-map-marker:hover{
-    color:grey;
-  }
+    color:cyan;
+    transform: scale(1.5);
+  }*/
 
   /* If you don't want the footer to be responsive, remove these media queries */
   
@@ -1999,6 +2008,11 @@ element.style {
 	.footer-distributed .footer-center i {
 	  margin-left: 0;
 	}
+  }
+  
+   .footer-icons a i:hover{
+      color:cyan;
+   /* transform: scale(1.5);*/
   }
 
 /* ==========================================================================
