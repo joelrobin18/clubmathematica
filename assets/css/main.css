@@ -1802,6 +1802,9 @@ element.style {
 }
 
 /* Footer Area Start */
+.section-padding-footer {
+  margin-top: 35px;
+}
 .footer-distributed {
   background-color :black;
   opacity:0.8;
