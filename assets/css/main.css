@@ -2230,3 +2230,135 @@ font-family: sans-serif;
 font-weight: bold;
 font-family:'Times New Roman', Times, serif;
 }
+/*Alumni Section Styling*/
+.containeralumni{
+  background: inherit;
+  width:100%;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: -10px;
+}
+
+.testimonial-card{
+  min-height: 150px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.3);
+  display: flex;
+  flex-flow: column;
+  justify-content:space-between;
+  margin-left: 25px;
+ 
+}
+.textalumni{
+  padding: 2.2em;
+  line-height: 1.4em;
+  position: relative;
+  font-size: 16px;
+}
+.imagealumni{
+  background-color:tomato;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background:no-repeat center/cover url(https://images.unsplash.com/photo-1563715992566-7ad5cf5b71d3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display:flex;
+  justify-content:center;
+  
+}
+
+.footeralumni{
+background: linear-gradient(90deg, #1a2B96 0%, #d22B96 100%);
+  height: 150px;
+  border-radius: 0 0 10px 10px;
+  position:relative;
+  
+}
+
+.quote{
+  font-size: 400%;
+  float: right;
+  opacity: .1;
+  transform: rotate(10deg) translate(-10px, -40px);
+ color:#4D3FA3;
+}
+
+.personalumni{
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size:1.5rem;
+  font-weight: 600;
+}
+.socialalumni{
+    justify-content: center;
+    margin-top:105px;
+    margin-bottom:80px;
+    margin-left:70px;
+    margin-right:80px;
+    padding-left: 10px;
+    background-color:inherit;
+}
+.socialalumni a:hover{
+    cursor: pointer;
+}
+.socialalumni a button:hover{
+    cursor: pointer;
+}
+.socialalumni a button{
+            background-color:inherit;
+            border:inherit;
+}
+.socialalumni a button i {
+    color:white;
+    transition: all 0.4s ease-in-out;
+}
+.socialalumni a button i:hover{
+    transform: scale(1.5);
+}
+/*slider s*/
+.slider{
+  width: 100%;
+  margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 1220px;
+}
+.slider-track{
+  animation: scroll 40s ease-in-out infinite;
+  animation-delay: 10s;
+  display: flex;
+  width: calc(300px * 16);
+  
+}
+.slider-track:hover{
+animation-play-state: paused;
+}
+@keyframes scroll {
+  0%,10%{ transform: translateX(0); }
+
+20%,40%	{ transform: translateX(-900px)}
+60%,80%{
+  transform: translateX(-1500px);
+}
+90%{
+  transform: translateX(-1500px);
+} 
+100%{
+transform: translateX(-2400px);
+}
+}
+
+
+
+
+
