@@ -2298,12 +2298,22 @@ element.style {
 }
 
 .footeralumni {
-  background: linear-gradient(90deg, #1a2b96 0%, #d22b96 100%);
   height: 150px;
   border-radius: 0 0 10px 10px;
   position: relative;
 }
-
+.changecolor1 {
+  background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+}
+.changecolor2 {
+  background-image: linear-gradient(315deg, #6e45e1 0%, #89d4cf 74%);
+}
+.changecolor3 {
+  background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+}
+.changecolor4 {
+  background-image: linear-gradient(315deg, #6e45e1 0%, #89d4cf 74%);
+}
 .quote {
   font-size: 400%;
   float: right;
