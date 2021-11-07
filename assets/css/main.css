@@ -2496,11 +2496,15 @@ ul.social-icons-contact li a {
 .form-group {
   background-color: #f1f3f5;
 }
-.fa-arrows-alt {
-  color: black;
-}
 .owlbutton {
-  font-size: 25px;
-  border: none;
-  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 50%;
+}
+.owl-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 50%;
+  font-size: 30px;
 }
