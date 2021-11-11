@@ -2326,6 +2326,12 @@ element.style {
 .changecolor8 {
   background-image: linear-gradient(315deg, #e61d8c 0%, #c7e9fb 74%);
 }
+.changecolor9 {
+  background: linear-gradient(90deg, #1a2b96 0%, #d22b96 100%);
+}
+.changecolor10 {
+  background: linear-gradient(90deg, #d22b96 0%, #1a2b96 100%);
+}
 .quote {
   font-size: 400%;
   float: right;
@@ -2411,6 +2417,7 @@ element.style {
 /*New Contact Form css*/
 
 /* contact */
+
 .contact-block input,
 .contact-block textarea {
   width: 100%;
@@ -2527,6 +2534,6 @@ ul.social-icons-contact li a {
 .owl-nav {
   display: flex;
   align-items: center;
-  padding-left: 50%;
+  padding-left: 45%;
   font-size: 30px;
 }
