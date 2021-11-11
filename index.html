@@ -307,7 +307,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     font-size: large;
   }
 #eventowl{
-  padding-left:25px;
+  padding-left:28px;
 }
 }
 
@@ -1116,7 +1116,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   </div>
 
   
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 5 <i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1133,7 +1133,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 6 <i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1150,7 +1150,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 7<i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1167,7 +1167,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 8<i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1184,7 +1184,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
    </div>
-   <div class="testimonial-card">
+   <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah  1<i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1201,7 +1201,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 2<i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1218,7 +1218,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 3 <i class="fas fa-quote-right quote"></i></div>
 
     
@@ -1235,7 +1235,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 4 <i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1254,7 +1254,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   </div>
 
   
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 5 <i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1271,7 +1271,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 6 <i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1288,7 +1288,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 7<i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1305,7 +1305,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
        </div>
     </div>
   </div>
-  <div class="testimonial-card">
+  <div class="testimonial-card mobilehide">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah 8<i class="fas fa-quote-right quote"></i></div>
     
     
@@ -1633,6 +1633,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       var owl = $('#eventowl');
       owl.owlCarousel({
         margin: 15,
+        dots:true,
         loop: true,
         autoplay: true,
         autoplayTimeout:10000,
@@ -1640,13 +1641,16 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         autoplayHoverPause:true,
         responsive: {
           0: {
-            items: 1
+            items: 1,
+            dotsEach: 5
           },
           600: {
-            items: 2
+            items: 2,
+            dotsEach: 5
           },
           1000: {
-            items: 3
+            items: 3,
+            dotsEach: 3
           }
         }
       })
