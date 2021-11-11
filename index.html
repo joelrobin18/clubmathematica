@@ -1045,7 +1045,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <div class="containeralumni">
     <!--  <div class="slider">
      <div class="slider-track">-->
-       <div id="eventowl" class="owl-carousel owl-theme">
+       <div id="alumniowl" class="owl-carousel owl-theme">
   <div class="testimonial-card">
     <div class="textalumni">Lorem ipsum dolor sit amet consectetur elit. Ipsa voluptatum ipsum, laudantium minima aliquam porro? Iste,  Et, esta ah  1<i class="fas fa-quote-right quote"></i></div>
     
@@ -1630,7 +1630,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 
    <!--Script for Owl Jquery Plugin-->
      <script>
-      var owl = $('#eventowl');
+      var owl = $('#alumniowl');
       owl.owlCarousel({
         margin: 15,
         dots:true,
@@ -1660,18 +1660,22 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       owl.owlCarousel({
         margin: 15,
         loop: true,
+         dots:true,
        /* nav: true,
     navText: ["<div class='owlbutton'><i class='fas fa-angle-left' aria-hidden='true'></div></i>","<div class='owlbutton'><i class='fas fa-angle-right'></i></div>"],*/
         autoplayHoverPause:true,
         responsive: {
           0: {
-            items: 1
+            items: 1,
+            dotsEach: 1
           },
           600: {
-            items: 2
+            items: 2,
+            dotsEach: 2
           },
           1000: {
-            items: 3
+            items: 3,
+            dotsEach: 3
           }
         }
       })
