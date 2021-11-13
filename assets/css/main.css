@@ -1384,7 +1384,9 @@ element.style {
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
 }
-
+.imgheight {
+  height: 170px;
+}
 /* Team Item */
 .team-item:hover {
   box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.35);
@@ -2309,10 +2311,28 @@ element.style {
   background-image: linear-gradient(315deg, #6e45e1 0%, #89d4cf 74%);
 }
 .changecolor3 {
-  background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
 }
 .changecolor4 {
-  background-image: linear-gradient(315deg, #6e45e1 0%, #89d4cf 74%);
+  background-image: linear-gradient(315deg, #3eadcf 0%, #abe9cd 74%);
+}
+.changecolor5 {
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+.changecolor6 {
+  background-image: linear-gradient(315deg, #09203f 0%, #537895 74%);
+}
+.changecolor7 {
+  background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+}
+.changecolor8 {
+  background-image: linear-gradient(315deg, #e61d8c 0%, #c7e9fb 74%);
+}
+.changecolor9 {
+  background: linear-gradient(90deg, #1a2b96 0%, #d22b96 100%);
+}
+.changecolor10 {
+  background: linear-gradient(90deg, #d22b96 0%, #1a2b96 100%);
 }
 .quote {
   font-size: 400%;
@@ -2399,6 +2419,9 @@ element.style {
 /*New Contact Form css*/
 
 /* contact */
+.contact-block {
+  height: 150%;
+}
 .contact-block input,
 .contact-block textarea {
   width: 100%;
@@ -2515,6 +2538,6 @@ ul.social-icons-contact li a {
 .owl-nav {
   display: flex;
   align-items: center;
-  padding-left: 50%;
+  padding-left: 45%;
   font-size: 30px;
 }
