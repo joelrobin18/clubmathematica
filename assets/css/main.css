@@ -1384,7 +1384,9 @@ element.style {
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
 }
-
+.imgheight {
+  height: 170px;
+}
 /* Team Item */
 .team-item:hover {
   box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.35);
@@ -2417,7 +2419,9 @@ element.style {
 /*New Contact Form css*/
 
 /* contact */
-
+.contact-block {
+  height: 150%;
+}
 .contact-block input,
 .contact-block textarea {
   width: 100%;
