@@ -260,7 +260,10 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 .for-mobile-img1 {
         height: 100%;
         display: none;}
-    
+        .for-mobile-img {
+       height: 100vh;
+       display: block;
+    }
   @media only screen and (max-width: 600px) {
     .aboutus {
       font-size: 35px
@@ -291,7 +294,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       height: 100vh;
     }
     .for-mobile-img {
-       height: 100%;
+       height: 100vh;
        display: none;
     }
     .for-mobile-img1 {
@@ -430,7 +433,10 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       </ol> -->
             <div class="carousel-inner">
                 <div class="carousel-item for-mobile active">
+                  <div id="background" class="owl-carousel owl-theme">
                     <img class="for-mobile-img" src="assets/img/slider/slide2.jpg" width="auto" alt="First slide">
+                    <img class="for-mobile-img" src="assets/img/slider/slide1_mobile.jpg" width="auto" alt="First slide">
+                  </div>
                     <img class="for-mobile-img1" src="assets/img/slider/slide1_mobile.jpg" width="auto" alt="First slide">
                     <div class="carousel-caption d-md-block">
                         <!-- <h1 class="wow fadeInDown heading" data-wow-delay=".4s">CLUB MATHEMATICA</h1> -->
@@ -1941,6 +1947,30 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
           1000: {
             items: 3,
             dotsEach: 3
+          }
+        }
+      })
+    </script>
+      <script>
+      var owl = $('#background');
+      owl.owlCarousel({
+        dots:true,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+    smartSpeed: 1500,
+    animateIn: 'linear',
+    animateOut: 'linear',
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
           }
         }
       })
